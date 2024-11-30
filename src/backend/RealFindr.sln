@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5A0E8B6E-B942-4BC1-96DC-E3FC04749AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{A9C837D3-7C6B-4DE7-B3C5-3836960BB1B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{90658233-DF96-40A6-A60A-CDA45142987C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealFindr.Application", "core\Application\RealFindr.Application.csproj", "{AD99ACF8-77C8-41BC-915E-30CD270B273D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealFindr.API", "core\API\RealFindr.API.csproj", "{AA101D52-546D-46B3-BECF-BDD7CF4A646C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealFindr.Domain", "core\Domain\RealFindr.Domain.csproj", "{4BFFD8E7-74A7-4C91-81F2-F7010641E7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealFindr.Infrastructure", "core\Infrastructure\RealFindr.Infrastructure.csproj", "{6263F4C0-A932-4526-BECF-97430149D0BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealFindr.Orleans", "core\Orleans\RealFindr.Orleans.csproj", "{44BFF9E7-A4E6-47D6-8306-47352ABB45E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C837D3-7C6B-4DE7-B3C5-3836960BB1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C837D3-7C6B-4DE7-B3C5-3836960BB1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C837D3-7C6B-4DE7-B3C5-3836960BB1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C837D3-7C6B-4DE7-B3C5-3836960BB1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD99ACF8-77C8-41BC-915E-30CD270B273D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD99ACF8-77C8-41BC-915E-30CD270B273D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD99ACF8-77C8-41BC-915E-30CD270B273D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD99ACF8-77C8-41BC-915E-30CD270B273D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA101D52-546D-46B3-BECF-BDD7CF4A646C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA101D52-546D-46B3-BECF-BDD7CF4A646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA101D52-546D-46B3-BECF-BDD7CF4A646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA101D52-546D-46B3-BECF-BDD7CF4A646C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFFD8E7-74A7-4C91-81F2-F7010641E7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFFD8E7-74A7-4C91-81F2-F7010641E7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFFD8E7-74A7-4C91-81F2-F7010641E7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFFD8E7-74A7-4C91-81F2-F7010641E7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6263F4C0-A932-4526-BECF-97430149D0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6263F4C0-A932-4526-BECF-97430149D0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6263F4C0-A932-4526-BECF-97430149D0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6263F4C0-A932-4526-BECF-97430149D0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BFF9E7-A4E6-47D6-8306-47352ABB45E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BFF9E7-A4E6-47D6-8306-47352ABB45E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BFF9E7-A4E6-47D6-8306-47352ABB45E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BFF9E7-A4E6-47D6-8306-47352ABB45E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9C837D3-7C6B-4DE7-B3C5-3836960BB1B0} = {5A0E8B6E-B942-4BC1-96DC-E3FC04749AE9}
+		{AD99ACF8-77C8-41BC-915E-30CD270B273D} = {90658233-DF96-40A6-A60A-CDA45142987C}
+		{AA101D52-546D-46B3-BECF-BDD7CF4A646C} = {90658233-DF96-40A6-A60A-CDA45142987C}
+		{4BFFD8E7-74A7-4C91-81F2-F7010641E7CE} = {90658233-DF96-40A6-A60A-CDA45142987C}
+		{6263F4C0-A932-4526-BECF-97430149D0BD} = {90658233-DF96-40A6-A60A-CDA45142987C}
+		{44BFF9E7-A4E6-47D6-8306-47352ABB45E9} = {90658233-DF96-40A6-A60A-CDA45142987C}
+	EndGlobalSection
+EndGlobal
